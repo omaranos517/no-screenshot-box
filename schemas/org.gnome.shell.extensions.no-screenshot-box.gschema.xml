@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.no-screenshot-box" path="/org/gnome/shell/extensions/no-screenshot-box/">
+    <key name="screenshot-on-release" type="b">
+      <default>true</default>
+      <summary>Automatically capture area selection on mouse release</summary>
+      <description>When enabled, the extension triggers the screenshot capture as soon as the selection drag ends. Turn this off to only clear the pre-selected area without taking a screenshot automatically.</description>
+    </key>
+  </schema>
+</schemalist>
